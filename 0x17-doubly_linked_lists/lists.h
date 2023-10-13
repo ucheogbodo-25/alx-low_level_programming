@@ -4,7 +4,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> masters
 /**
  * struct dlistint_s - doubly linked list
  * @n: integer

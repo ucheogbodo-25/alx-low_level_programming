@@ -17,5 +17,9 @@ int sum_dlistint(dlistint_t *head)
 		head = head->next;
 	}
 
+<<<<<<< HEAD
 	return sum;
+=======
+	return (sum);
+>>>>>>> masters
 }

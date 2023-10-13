@@ -2,7 +2,11 @@
 #include "lists.h"
 
 /**
+<<<<<<< HEAD
  * insert_dnodeint_at_index - Inserts a new node at a given position in a doubly linked list.
+=======
+ * insert_dnodeint_at_index - Insert new node at a pos in a doubly linked list.
+>>>>>>> masters
  * @h: Pointer to a pointer to the head of the doubly linked list.
  * @idx: Index of the list where the new node should be added.
  * @n: Value to be assigned to the new node.
@@ -15,10 +19,17 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	unsigned int count = 0;
 
 	if (h == NULL)
+<<<<<<< HEAD
 	return NULL;
 
 	if (idx == 0)
 		return add_dnodeint(h, n);
+=======
+	return (NULL);
+
+	if (idx == 0)
+		return (add_dnodeint(h, n));
+>>>>>>> masters
 
 	temp = *h;
 	while (temp != NULL && count < idx - 1)
@@ -43,6 +54,11 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 
 	temp->next = new_node;
 
+<<<<<<< HEAD
 	return new_node;
 }
 
+=======
+	return (new_node);
+}
+>>>>>>> masters
